@@ -15,7 +15,7 @@ body{
     z-index: 3;
 }
 #welcome-section{
-    background-color: #457b9d;
+    background-image: url(./images/genshinlighting.jpg);
     height: 60rem;
     display: flex;
     justify-content: center;
