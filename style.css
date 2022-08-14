@@ -24,8 +24,7 @@ body{
     flex-direction: column;
 }
 #about-section{
-    background-color: #f1faee;
-    height: 50rem;
+    background-color: #ffc8dd;
 }
 
 /* inside header */
@@ -118,6 +117,28 @@ box-shadow: 0.5rem 0.5rem 1rem black;
 
 .card p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+
+}
+
+
+
+/* About section */
+
+.aboutContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10rem;
+}
+.aboutText{
+    margin: 2rem 2rem;
+    font-size: 2.5rem;
+    color: #5e548e;
+    z-index: 2;
+}
+.aboutImage img{
+ transform: rotate(10deg);
+ height: 50rem;
 
 }
