@@ -20,7 +20,8 @@ body{
 }
 #info-section{
     background-color: #a8dadc;
-    height: 50rem;
+    display: flex;
+    flex-direction: column;
 }
 #about-section{
     background-color: #f1faee;
@@ -85,4 +86,28 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .introText p{
     margin-top: -2rem;
+}
+
+/* Info section */
+.infoCard{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.infoTitle{
+    font-size: 2rem;
+}
+.cardContainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 4rem;
+
+}
+.card img{
+height: 30rem;
+width: 30rem;
+object-fit: cover;
 }
