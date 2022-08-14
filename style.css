@@ -6,19 +6,19 @@ body{
     box-sizing: border-box;
 }
 
-.headerContainer{
+#headerContainer{
     background-color: #1d3557;
     height: 7rem;
 }
-.welcome-section{
+#welcome-section{
     background-color: #457b9d;
     height: 40rem;
 }
-.info-section{
+#info-section{
     background-color: #a8dadc;
     height: 50rem;
 }
-.about-section{
+#about-section{
     background-color: #f1faee;
     height: 50rem;
 }
