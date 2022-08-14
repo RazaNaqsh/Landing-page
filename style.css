@@ -9,6 +9,10 @@ body{
 #headerContainer{
     background-color: #1d3557;
     height: 7rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 3;
 }
 #welcome-section{
     background-color: #457b9d;
