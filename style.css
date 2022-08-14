@@ -29,3 +29,9 @@ img.logo{
 border-radius: 50%;
 height: 6rem;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
