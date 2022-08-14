@@ -26,7 +26,9 @@ body{
 #about-section{
     background-color: #ffc8dd;
 }
-
+#contact-section{
+    background-color: #14213d;
+}
 /* inside header */
 img.logo{
 border-radius: 50%;
@@ -140,5 +142,25 @@ box-shadow: 0.5rem 0.5rem 1rem black;
 .aboutImage img{
  transform: rotate(10deg);
  height: 50rem;
+
+}
+
+/* contact-section */
+
+.contactUs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35rem;
+}
+.contactText{
+    font-size:2rem ;
+    color: #457b9d;
+}
+.icons img{
+    height: 30rem;
+    width: 30rem;
+}
+#footer{
 
 }
