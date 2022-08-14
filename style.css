@@ -12,7 +12,11 @@ body{
 }
 #welcome-section{
     background-color: #457b9d;
-    height: 40rem;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }
 #info-section{
     background-color: #a8dadc;
@@ -48,4 +52,37 @@ text-decoration: none;
 color: #fff;
 font-size: 2rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Welcome section */
+
+.introCard{
+    background-color: #14213d;
+    height: 60%;
+    width: 80%;
+    z-index: 1;
+    border-radius: 40rem;
+    display: flex;
+
+}
+.cardpfp{
+    height: 35rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 1rem;
+    
+}
+
+.introText{
+    font-size: 3rem;
+    color: #eee;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introText p{
+    margin-top: -2rem;
 }
