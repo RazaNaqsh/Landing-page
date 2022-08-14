@@ -98,16 +98,26 @@ align-items: center;
 }
 .infoTitle{
     font-size: 2rem;
+    color:#0096c7;
+    font-family: cursive;
 }
 .cardContainer{
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 gap: 4rem;
-
+margin: 2rem 5rem;
 }
 .card img{
 height: 30rem;
 width: 30rem;
 object-fit: cover;
+border-radius: 1rem;
+box-shadow: 0.5rem 0.5rem 1rem black;
+}
+
+.card p{
+    text-align: center;
+    font-size: 1.5rem;
+
 }
