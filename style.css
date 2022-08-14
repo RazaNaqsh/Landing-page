@@ -24,14 +24,28 @@ body{
 }
 
 /* inside header */
-
 img.logo{
 border-radius: 50%;
 height: 6rem;
+margin-left: 1rem;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    margin-right: 4rem;
+}
+a{
+text-decoration: none;
+color: #fff;
+font-size: 2rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
