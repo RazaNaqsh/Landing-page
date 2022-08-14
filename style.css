@@ -22,3 +22,10 @@ body{
     background-color: #f1faee;
     height: 50rem;
 }
+
+/* inside header */
+
+img.logo{
+border-radius: 50%;
+height: 6rem;
+}
