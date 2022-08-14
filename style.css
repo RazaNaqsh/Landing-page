@@ -5,3 +5,20 @@ body{
     margin:0;
     box-sizing: border-box;
 }
+
+.headerContainer{
+    background-color: #1d3557;
+    height: 7rem;
+}
+.welcome-section{
+    background-color: #457b9d;
+    height: 40rem;
+}
+.info-section{
+    background-color: #a8dadc;
+    height: 50rem;
+}
+.about-section{
+    background-color: #f1faee;
+    height: 50rem;
+}
